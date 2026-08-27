@@ -1,0 +1,11 @@
+source_city,destination_city,average_ticket_price
+Chennai,Bangalore,25081.85045433544
+Kolkata,Chennai,23660.36104013227
+Bangalore,Kolkata,23500.061228560033
+Bangalore,Chennai,23321.85007800312
+Mumbai,Bangalore,23147.87380675204
+Bangalore,Mumbai,23128.618672231238
+Mumbai,Chennai,22781.89911154985
+Chennai,Mumbai,22765.849646605267
+Kolkata,Bangalore,22744.80842833876
+Chennai,Kolkata,22669.93240727481

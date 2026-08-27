@@ -6,6 +6,11 @@ import matplotlib.pyplot as plt
 # ====================================
 df = pd.read_csv("Data/flight_data.csv")
 
+# ====================================
+# DATASET COPY
+# ====================================
+original_df = df.copy()
+
 # Remove unwanted column
 df = df.drop("Unnamed: 0", axis=1)
 
@@ -102,10 +107,8 @@ print(df.groupby("destination_city")["price"].sum().sort_values(ascending=False)
 print("\nTOP 10 MOST EXPENSIVE ROUTES")
 
 route_price = (
-    df.groupby(["source_city", "destination_city"])["price"]
-    .mean()
-    .sort_values(ascending=False)
-)
+    df.groupby(["source_city", "destination_city"])["price"].mean()
+    .sort_values(ascending=False))
 
 print(route_price.head(10))
 

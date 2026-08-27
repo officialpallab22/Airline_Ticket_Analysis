@@ -1,4 +1,4 @@
-                                    -- Airline Ticket Analysis --
+-- Airline Ticket Analysis --
 Project Overview:
 This project analyzes airline ticket data to uncover insights related to flight operations, revenue generation, ticket pricing, and customer travel patterns.
 
@@ -119,21 +119,13 @@ AIRLINE_TICKET_ANALYSIS
 ├── README.md
 └── requirements.txt
 
-Sample Visualizations - 
-The project generates multiple charts that help visualize:
-Airline market share
-Revenue distribution
-Travel class preferences
-Destination popularity
-Ticket pricing patterns
-
 Author
-Pallab Das
-Aspiring Business Analyst | Data Analyst
+Pallab Das Mahapatra
+Business Analyst | Data Analyst
 
 Skills:
 Python
-Pandas
+Pandas , Matplotlib
 SQL
 Power BI
 Data Analysis
